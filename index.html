@@ -8,28 +8,23 @@
  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
-      <!-- <header>  -->
-     <nav>
+      <nav>
         <div id="logo" class="logo"><span>S</span>aher.</div>
-         <ul class="navlist">
+        <div id="menu-icon" onclick="myFunction()" class="bx bx-menu"></div>
+        <ul class="navlist anchor" >
           <li><a href="#home">HOME</a></li>
           <li><a href="#about">ABOUT</a></li>
           <li><a href="#skills">SKILLS</a></li>
           <li><a href="#project">PROJECT</a></li>
           <li><a href="#contact">CONTACT</a></li>
-         </ul>
-        <div id="menu-icon" class="bx bx-menu"></div>
-     </nav>
-      <!-- </header> -->
-
+        </ul>
+      </nav>
       <!-- home-section -->
      <div id="perant-img">
-       <div>
-         <section id="home" class="home">
+        <section id="home" class="home">
           <div class="home-content">
            <h3>Hello, It's me</h3>
             <div class="container">
-              <!-- <h1> -->
                <span>S</span>
                <span>A</span>
                <span>H</span>
@@ -41,7 +36,6 @@
                <span>T</span>
                <span>M</span>
                <span>A</span>
-               <!-- </h1> -->
             </div>
    
             <h3>And I' am a <span>Web Devloper</span></h3>
@@ -57,27 +51,24 @@
    
             <a href="image/Saher Fatma-Saher Fatma-Frontend Developer.pdf" download="" class="btn">Download Resume</a>
           </div>
-          </section>
-         </div>
-            <div>
-              <img src="image/1234.jpeg" alt="" width="450px " height="450px">
-            </div>
+        </section>
+        <div id="img_div">
+          <img src="image/1234.jpeg" alt="">
+        </div>
       </div>
               
       <!-- about-section -->
       <section id="about" class="about">
         <div class="about-content">
-         <h1><span>About me</span></h1>
-        
-         <p id="paragraph">"I'm an Arts student with a passion for exploring new technologies in web development. I believe in continuous learning and regularly upgrade my skills to stay updated. As an aspiring Full-Stack Developer, I have a strong foundation in HTML, CSS, and Javascript. I'm dedicated to expanding my skill set and enthusiastic about web development. Currently studying at Masai School, I'm eager to apply my knowledge to create impactful and innovative web solutions."</p>
-       </div>
+          <h1><span>About me</span></h1>
+          <p id="paragraph">"I'm an Arts student with a passion for exploring new technologies in web development. I believe in continuous learning and regularly upgrade my skills to stay updated. As an aspiring Full-Stack Developer, I have a strong foundation in HTML, CSS, and Javascript. I'm dedicated to expanding my skill set and enthusiastic about web development. Currently studying at Masai School, I'm eager to apply my knowledge to create impactful and innovative web solutions."</p>
+        </div>
       </section>
 
 
      <!-- skills-section -->
-     <div id="skills" class="skills">
+     <section id="skills" class="skills">
        <h1><span>Tech-Stack</span></h1>
-  
         <div id="box1">
           <div class="card1">
             <img class="html-pic"src="https://icons.iconarchive.com/icons/martz90/hex/256/html-5-icon.png" alt="">
@@ -122,87 +113,86 @@
             <h1>npm</h1>
           </div>
        </div>  
-      </div>
+     </section>
     
       <!-- project-section -->
 
-     <div id="project">
-      <div id="project-h1">
-        <h1><span>Projects</span></h1>
-      </div>
+     <section id="project">
+       <div id="project-h1">
+         <h1><span>Projects</span></h1>
+       </div>
 
-      <div id="project-perant">
-        <div class="project-child">
-          <img src="image/Stopwatch.jpeg" width="220px" height="200px">
-          <h2>Stopwatch</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam accusamus expedita nihil, inventore</p>
-          <h2>Tech Stack</h2>
-          <p>HTML | CSS | Javascript</p>
-          <div class="btn">
-            <a href="#">Live<i class='bx bx-link-external'></i></i></a>
+       <div id="project-perant">
+          <div class="project-child">
+           <img src="image/Stopwatch.jpeg" width="220px" height="200px">
+           <h2>Stopwatch</h2>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam accusamus expedita nihil, inventore</p>
+           <h2>Tech Stack</h2>
+           <p>HTML | CSS | Javascript</p>
+           <div class="btn">
+             <a href="#">Live<i class='bx bx-link-external'></i></i></a>
+           </div> 
+           <div class="btn">  
+             <a href="#">Github<i class='bx bxl-github'></i></a>
+           </div>
           </div>
-          <div class="btn">  
-            <a href="#">Github<i class='bx bxl-github'></i></a>
+
+          <div class="project-child">
+            <img src="image/timer.jpeg" alt=""  width="220px" height="200px">
+             <h2>Countdown Timer</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam accusamus expedita nihil, inventore</p>
+               <h2>Tech Stack</h2>
+                <p>HTML | CSS | Javascript</p>
+                <div class="btn">
+                 <a href="https://github.com/sahergithub/project-timer.git">Live<i class='bx bx-link-external'></i></i></a>
+                </div>
+                <div class="btn">
+                  <a href=" https://sahergithub.github.io/project-timer/">Github<i class='bx bxl-github'></i></a>
+                </div>
+          </div>
+
+          <div class="project-child">
+            <img src="image/Zomato2.jpeg" alt=""  width="220px" height="200px">
+             <h2>Zomato Clone</h2>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam accusamus expedita nihil, inventore</p> 
+               <h2>Tech Stack</h2>
+                <p>HTML | CSS</p>
+                <div class="btn">
+                  <a href="https://sahergithub.github.io/clone-zomato/">Live<i class='bx bx-link-external'></i></i></a>
+                </div>
+                <div class="btn">
+                  <a href="https://github.com/sahergithub/clone-zomato.git">Github<i class='bx bxl-github'></i></a> 
+                </div>
           </div>
         </div>
-
-        <div class="project-child">
-          <img src="image/timer.jpeg" alt=""  width="220px" height="200px">
-          <h2>Countdown Timer</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam accusamus expedita nihil, inventore</p>
-          <h2>Tech Stack</h2>
-          <p>HTML | CSS | Javascript</p>
-          <div class="btn">
-            <a href="https://github.com/sahergithub/project-timer.git">Live<i class='bx bx-link-external'></i></i></a>
-          </div>
-          <div class="btn">
-            <a href=" https://sahergithub.github.io/project-timer/">Github<i class='bx bxl-github'></i></a>
-          </div>
-        </div>
-
-        <div class="project-child">
-          <img src="image/Zomato2.jpeg" alt=""  width="220px" height="200px">
-          <h2>Zomato Clone</h2>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam accusamus expedita nihil, inventore</p> 
-          <h2>Tech Stack</h2>
-          <p>HTML | CSS</p>
-          <div class="btn">
-            <a href="https://sahergithub.github.io/clone-zomato/">Live<i class='bx bx-link-external'></i></i></a>
-          </div>
-          <div class="btn">
-           <a href="https://github.com/sahergithub/clone-zomato.git">Github<i class='bx bxl-github'></i></a> 
-          </div>
-        </div>
-      </div>
-    </div> 
+      </section> 
 
 
     <!-- <---Contact - Section -->
 
-   <div id="contact">
-    <div id="contact-h1">
-      <h1><span>Get in touch</span></h1>
-    </div>
+   <section id="contact">
+     <div id="contact-h1">
+       <h1><span>Get in touch</span></h1>
+     </div>
 
-    <div id="contact-parent">
-      <div id="contact-left">
-        <input class="inputs" type="text" placeholder="Full Name" required>
-        <input class="inputs" type="text" placeholder="Email Address" required>
-        <input class="inputs" type="text" placeholder="Mobile Number" required>
-        <textarea id="massage" class="inputs" name="message" placeholder="Your Massage" required></textarea>
-        <button type="submit" class="btn">Submit</button>
-      </div>
+     <div id="contact-parent">
+       <div id="contact-left">
+         <input class="inputs" type="text" placeholder="Full Name" required>
+         <input class="inputs" type="text" placeholder="Email Address" required>
+         <input class="inputs" type="text" placeholder="Mobile Number" required>
+         <textarea id="massage" class="inputs" name="message" placeholder="Your Massage" required></textarea>
+         <button type="submit" class="btn">Submit</button>
+       </div>
 
-      <div id="contact-right">
-        <div class="mail"><p><box-icon name='mail-send'>@ saherfatma012@gmail.com</box-icon></p></div>
-        <div class="phone"><p></p><i class='bx bxs-phone-call'></i> +91 6386107285</box-icon></p></div>
-        <p><i class='bx bx-current-location bx-flip-horizontal'></i> U.P. (Prayagraj)</a>
-        <p><i class='bx bxl-linkedin'> Linkedin</i></p> 
-        <p><i class='bx bxl-github'></i> Github</p>
-      </div>
-
-    </div>
-  </div>
+       <div id="contact-right">
+         <div class="mail"><p><box-icon name='mail-send'>@ saherfatma012@gmail.com</box-icon></p></div>
+         <div class="phone"><p></p><i class='bx bxs-phone-call'></i> +91 6386107285</box-icon></p></div>
+         <p><i class='bx bx-current-location bx-flip-horizontal'></i> U.P. (Prayagraj)</a>
+         <p><i class='bx bxl-linkedin'> Linkedin</i></p> 
+         <p><i class='bx bxl-github'></i> Github</p>
+       </div>
+     </div>
+   </section>
  <div id="MY-NAME"><marquee><h1>Thank You! for visit my website.</h1></marquee></div>
 </body>
 </html>
